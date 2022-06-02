@@ -5,7 +5,7 @@ var countOdds = function(low, high) {
             count++;
         }
     }
-    return count;
+    return console.log(count);
 };
 
 countOdds(3,7);

@@ -10,7 +10,7 @@ var average = function(salary) {
         sum += item;
     }
     sum = sum - min - max;
-    return sum/(salary.length-2);
+    return console.log(sum/(salary.length-2));
 };
 
 
