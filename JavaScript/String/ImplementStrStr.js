@@ -1,5 +1,7 @@
 let s = "GeeksForGeeks";
 let x = "For";
+let t = "GeeksForGeeks";
+let y = "Fr";
 
 function strstr(s, x) {
   let n = s.length;
@@ -28,3 +30,4 @@ function strstr(s, x) {
 }
 
 strstr(s, x);
+strstr(t, y);

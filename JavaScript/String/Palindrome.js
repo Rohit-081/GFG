@@ -17,4 +17,4 @@ const longestPalindrom = (str) => {
   }
   return max;
 };
-console.log(longestPalindrom("asaaskrati"));
+console.log(longestPalindrom("rohor"));

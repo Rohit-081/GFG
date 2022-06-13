@@ -1,3 +1,5 @@
+//Minimum Adjacent difference in circular array
+
 const minAdjDiffArray = [8, -8, 9, -9, 10, -11, 12];
 
 function minAdjDiff(arr) {

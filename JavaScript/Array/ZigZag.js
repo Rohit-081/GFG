@@ -12,7 +12,7 @@ function zigZag(arr, n) {
       arr[i] = temp;
     }
   }
-  return arr;
+  return console.log(arr);
 }
 
-console.log(zigZag([4, 3, 7, 8, 6, 2, 1], 7));
+zigZag([4, 3, 7, 8, 6, 2, 1], 7);

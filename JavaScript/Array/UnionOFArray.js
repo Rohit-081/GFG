@@ -3,7 +3,7 @@ const arr21 = [28, 56, 58, 70, 90, 3];
 
 //Problem Statement -  Two sorted arrays are given and find out union. Output: [1,28,37,49,56,58,69,70,90];
 
-// Create a new emptey Array.
+// Create a new empty Array.
 // Iterate over the two array one by one.
 // Check that item present in the new array or not.
 // If the item is present left them but if not push that item into new Array.

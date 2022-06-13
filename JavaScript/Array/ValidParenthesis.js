@@ -1,26 +1,26 @@
 var isValid = function(s) {
-  let arr = s.split("") // split the string
+  let arr = s.split("");
+  console.log(arr);
   if (arr.length <= 1) return false
-  
-  let stack = [];
+ 
   let obj = {
     "{": "}", 
     "[": "]", 
     "(": ")"
   }
-  let keys = ["{", "[", "("]
+  let keys = ["{", "[", "("];
+  let stack = [];
   
-  for (let i = 0; i< arr.length; i++){
+  for (let i = 0; i < arr.length; i++){
     const elem = arr[i]
-    
     if (keys.includes(elem)){
       stack.push(elem)
     } 
     else {
-      if (obj[stack.pop()] !== elem) return false
+      if (obj[stack.pop()] !== elem) return console.log(false);
     }
   }
-return stack.length === 0
+return console.log(stack.length === 0);
 };
 
 
